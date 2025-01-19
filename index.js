@@ -30,7 +30,7 @@ dotenv.config();
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 // Base URL for Gemini API (replace with actual API URL)
-const GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB-HORWw51_v1UB3YrsPqBr8O7UUPtXS0U";
+const GEMINI_API_BASE = "";
 
 // Handle text messages from users
 bot.on("text", async (ctx) => {
